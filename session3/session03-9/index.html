@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>session3</title>
+  </head>
+  <body>
+    <form action="http://group.com" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Họ và tên:</label></td>
+          <td><input required type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">Ngày sinh:</label></td>
+          <td><input required type="date" name="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="sex">Giới tính:</label></td>
+          <td>
+            <input required type="radio" id="male" name="sex" />Nam
+            <input required type="radio" id="female" name="sex" />Nữ
+          </td>
+        </tr>
+        <tr>
+          <td><label for="phone">Số điện thoại:</label></td>
+          <td><input required type="tel" name="phone" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input required type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="address">Địa chỉ:</label></td>
+          <td>
+            <textarea required name="address" id="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="role">Vai trò trong nhóm:</label></td>
+          <td>
+            <select name="role" id="role">
+              <option value="thanhVien">Thành viên</option>
+              <option value="quanTriVien">Quản trị viên</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="favourite">Sở thích:</label></td>
+          <td><input required type="text" name="favourite" /></td>
+        </tr>
+        <tr>
+          <td><label for="skill">Kỹ năng:</label></td>
+          <td>
+            <textarea required name="skill" id="skill"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="free">Thời gian rảnh:</label></td>
+          <td>
+            <input required type="checkbox" name="free" />Sáng
+            <input required type="checkbox" name="free" />Chiều
+            <input required type="checkbox" name="free" />Tối
+          </td>
+        </tr>
+        <tr>
+          <td><label for="why">Lý do tham gia nhóm:</label></td>
+          <td>
+            <textarea required name="why" id="why"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="color">Màu yêu thích:</label></td>
+          <td>
+            <input required type="color" name="color" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tick">Đăng ký nhận bản tin:</label></td>
+          <td><input type="checkbox" id="tick" name="tick" />Có</td>
+        </tr>
+        <tr>
+          <td><label for="mess">Nhân thông báo qua email:</label></td>
+          <td>
+            <input type="radio" id="Email" name="mess" />Email
+            <input type="radio" id="SMS" name="mess" />SMS
+          </td>
+        </tr>
+        <tr>
+          <tfoot>
+            <tr>
+              <td><button type="submit">Đăng ký thành viên</button></td>
+            </tr>
+          </tfoot>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

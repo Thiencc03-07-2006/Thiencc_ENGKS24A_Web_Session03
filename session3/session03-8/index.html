@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>session3</title>
+  </head>
+  <body>
+    <form action="http://info.com" method="post">
+      <table>
+        <tr>
+          <td><label for="name">Họ và tên:</label></td>
+          <td><input required type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="date">Ngày sinh:</label></td>
+          <td><input required type="date" name="date" /></td>
+        </tr>
+        <tr>
+          <td><label for="sex">Giới tính:</label></td>
+          <td>
+            <input required type="radio" id="male" name="sex" />Nam
+            <input required type="radio" id="female" name="sex" />Nữ
+          </td>
+        </tr>
+        <tr>
+          <td><label for="CCCD">Số căn cước công dân:</label></td>
+          <td><input required type="number" name="CCCD" /></td>
+        </tr>
+        <tr>
+          <td><label for="dateUpdate">Ngày cấp:</label></td>
+          <td><input required type="date" name="dateUpdate" /></td>
+        </tr>
+        <tr>
+          <td><label for="takeCCCD">Nơi cấp:</label></td>
+          <td><input required type="text " name="takeCCCD" /></td>
+        </tr>
+        <tr>
+          <td><label for="phone">Số điện thoại:</label></td>
+          <td><input required type="tel" name="phone" /></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input required type="email" name="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="addressOnly">Địa chỉ thường trú:</label></td>
+          <td>
+            <textarea required name="addressOnly" id="addressOnly"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="addressSome">Địa chỉ tạm trú:</label></td>
+          <td>
+            <textarea required name="addressSome" id="addressSome"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="typeCCCD">Giới tính:</label></td>
+          <td>
+            <input required type="radio" id="new" name="typeCCCD" />Căn cước
+            công dân mới
+            <input required type="radio" id="old" name="typeCCCD" />Că cước công
+            dân cũ
+          </td>
+        </tr>
+        <tr>
+          <td><label for="ethnicity">Dân tộc:</label></td>
+          <td><input required type="text" name="ethnicity" /></td>
+        </tr>
+        <tr>
+          <td><label for="religion">Tôn giáo:</label></td>
+          <td><input required type="text" name="religion" /></td>
+        </tr>
+        <tr>
+          <td><label for="nationality">Quốc tịch:</label></td>
+          <td><input required type="text" name="nationality" /></td>
+        </tr>
+        <tr>
+          <td><label for="nameOfF/M">Họ tên cha/mẹ:</label></td>
+          <td><input required type="text" name="nameOfF/M" /></td>
+        </tr>
+        <tr>
+          <td><label for="CCCDOfF/M">Số CMND/CCCD của cha/mẹ:</label></td>
+          <td><input required type="text" name="CCCDOfF/M" /></td>
+        </tr>
+        <tr>
+          <td><label for="where">Tỉnh/Thành phố:</label></td>
+          <td>
+            <select name="where" id="where">
+              <option value="haNoi">Thành phố Hà Nội</option>
+              <option value="quangBinh">Tỉnh Quảng Bình</option>
+            </select>
+          </td>
+        </tr>
+        <tfoot>
+          <tr>
+            <td><button type="submit">Gửi thông tin</button></td>
+          </tr>
+        </tfoot>
+      </table>
+    </form>
+  </body>
+</html>
